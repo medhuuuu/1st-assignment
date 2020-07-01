@@ -1,0 +1,146 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+span{
+    color: #006effb7;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(65deg,cornflowerblue,rgb(13, 82, 209));
+    color: cornsilk;
+    border-radius: 10px;
+}
+p{
+    padding-bottom: 10px;
+    color: dimgray;
+}
+
+.header{
+    background-image: url(./images/header-bg.png);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.half-writing{
+	height: auto;
+	width: 50%;
+	padding-left: 100px;
+	padding-top: 200px;
+}
+.half{
+	height: auto;
+	width: 50%;
+	padding: 100px;
+}
+.my-pic{
+	width: 75%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.writing{
+    padding-top: 150px;
+}
+.biography{
+    background-image: url(./images/biography-bg.png);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+}
+.latest-work{
+    background-image: url(./images/latest-work-bg.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+
+}
+.images{
+    width: 20%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 4%;
+}
+.image-latest{
+    margin-right: 10px;
+    justify-content: center;
+    display: flex;
+}
+.skills{
+    width: 100%;
+    padding-top: 150px;
+    height: 400px;
+}
+.part{
+    float: left;
+    width: 40%;
+    height: 60%;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red,orange);
+    border-image-slice:1 ;
+    box-shadow: gray 10px 10px 40px;
+    border-radius: 5px;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+#color{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,violet,purple);
+    border-image-slice:1 ;
+}
+#extra{
+    margin-left: 5px;
+    padding-left: 10px;
+}
+h4{
+    color: magenta;
+}
+.footer{
+    background-image: url(./images/footer-bg.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.black{
+    color: black;
+}
+.last{
+    text-align: center;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+.email{
+    background-color: blue;
+    width: 600px;
+    height: auto;
+    padding: 50px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+#mail{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.white{
+    color: white;
+}
